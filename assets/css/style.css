@@ -1,0 +1,328 @@
+﻿header{
+	background: #ffffff;
+	border-bottom: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	width: 1224px;
+	height: 90px;
+
+}
+
+#mynamebox{
+	margin-left: 85px;
+	padding-top: 10px;
+	background: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 250px;
+	height: 80px;
+}
+
+#navbox{
+	margin-right: 140px;
+	float: right;
+	width: 255px;
+	height: 65px;
+	text-align: center;
+	padding-top: 25px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+}
+
+.navlinks{
+	padding: 3px;
+	float: left;
+	width: 30%;
+	border-right-style: solid;
+	border-right-width: thin;
+	border-right-color: #cccccc;
+
+}
+
+#navlinksend{
+	padding: 3px;
+	float: left;
+	width: 30%;
+
+}
+
+#mainboxbackground{
+	overflow: auto;
+	width: 1224px;
+	height: 575px;
+	background-image: url("../images/old_moon.png");
+
+}
+
+/*Used to override to new height for Portfolio Page */
+
+#mbbheightportfolio{
+	overflow: auto;
+	width: 1224px;
+	height: 1165px;
+	background-image: url("../images/old_moon.png");
+
+}
+
+#maincontentwindow{
+	margin-top: 38px;
+	margin-left: 85px;
+	height: 475px;
+	width:	650px;
+	background: #ffffff;
+	border: thin;
+	border-color: #dddddd;
+	border-style: solid;
+	float: left;
+	
+}
+
+/*Used to override new height for Portfolio Page */
+#mainportfoliowindow{
+	margin-top: 38px;
+	margin-left: 85px;
+	height: 1065px;
+	width:	650px;
+	background: #ffffff;
+	border: thin;
+	border-color: #dddddd;
+	border-style: solid;
+	float: left;
+
+}
+
+#maincontentheader{
+	padding-top: 35px;
+	margin-left: 33px;
+	margin-right: 33px;
+	height: 67px;
+	width: 592px;
+	padding-top: 10px;
+	text-align: left;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	float: left;
+	border-bottom: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+
+}
+
+#mainindeximage{
+	margin-left: 33px;
+	margin-top: 30px;
+	float: left;
+	width: 30%;
+	height: 30%;
+		
+}
+
+#paragraph1{
+	margin-top: 24px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 20px;
+	margin-left: 5px;
+	line-height: 1.5;
+	text-align: left;
+	float: left;
+	width: 59%;
+	margin-right: 33px;
+
+}
+
+#paragraph2{
+	margin-left: 33px;
+	clear: both;
+	line-height: 1.5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	font-size: 20px;
+	margin-right: 33px;
+
+}
+
+#textboxheaderfirst{
+	margin-top: 100px;
+	margin-left: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: left;
+	font-size: large;
+	color: #777777;
+
+}
+
+
+.textboxheader{
+	margin-top: 20px;
+	margin-left: 33px;
+	margin-right: 33px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: left;
+	font-size: large;
+	color: #777777;
+
+}
+
+.textbox{
+	margin-top: 5px;
+	margin-left: 33px;
+	margin-right: 33px;
+	width: 80%;
+	height: 20px;
+	border: thin;
+	border-style: solid;
+	border-color: #cccccc;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+
+}
+
+/* This overrides the textbox height for the message box */
+#textboxmessageheight{
+	height: 140px;
+}
+
+#submitbutton{
+	background: #4aaaa5;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-top: 10px;
+	margin-left: 33px;
+	margin-right: 33px;
+	font-size: medium;
+	padding: 7px;
+
+}
+
+.imageboxleft{
+
+	float: left;
+	width: 280px;
+	height: 280px;
+	margin-left: 33px;	
+	margin-top: 33px;
+	
+}
+
+.imageboxright{
+	margin-left: 31px;
+	float: left;
+	width: 280px;
+	height: 280px;	
+	margin-top: 33px;
+	
+}
+
+.portfolioimagesleft{
+	width: 280px;
+	height: 280px;
+	position: relative;
+	z-index: 1;
+	float: left;
+
+}
+
+.portfolioimagesright{
+	width: 280px;
+	height: 280px;
+	position: relative;
+	z-index: 1;
+	float: left;
+
+}
+
+
+.portfolioimageheaderleft{
+	float: left;
+	top: -90px;
+	left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 100%;
+	z-index: 2;
+	position: relative;
+
+}
+
+.portfolioimageheaderright{
+	float: left;
+	top: -90px;
+	left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #4aaaa5;
+	text-align: center;
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 100%;
+	position: relative;
+	z-index: 2;
+
+}
+
+#connectwindow{
+	width: 270px;
+	height: 175px;
+	margin-top: 38px;
+	margin-left: 45px;
+	background: #ffffff;
+	border: thin;
+	border-color: #dddddd;
+	border-style: solid;
+	float: left;
+
+}
+
+#connectheader{
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 25%;
+	width: 209px;
+	text-align: left;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	border-bottom: medium;
+	border-bottom-style: solid;
+	border-bottom-color: #cccccc;
+	float: left;	
+
+}
+
+#connectlogossection{
+	margin-top: 65px;
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 62%;
+	
+}
+
+.connectlogos{
+	margin-top: 5px;
+	margin-right: 5px;
+	width: 63px;
+	height: 66px;
+	margin-bottom: -3px;
+	
+}
+
+footer{
+	padding-top: 35px;
+	background: #666666;
+	width: 1224px;
+	height: 55px;
+	text-align: center;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	border-top: 8px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+
+}
